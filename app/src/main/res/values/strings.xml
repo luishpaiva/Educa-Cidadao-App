@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Educa Cidadão</string>
+
+    <string name="adicionar_curso">Adicionar Curso</string>
+    <string name="alunos">Alunos</string>
+    <string name="atencao">Atenção</string>
+    <string name="atualizar_curso">Atualizar curso</string>
+    <string name="atualizar_usuario">Atualizar usuário</string>
+    <string name="bairro">Bairro</string>
+    <string name="banner_educa_cidadao">Banner Educa Cidadão</string>
+    <string name="banner_usuario">Banner Usuário</string>
+    <string name="bem_vindo">Bem-vindo(a)</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastrar_usuario">Cadastrar usuário</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="campos_vazios">Campos vazios! Deseja realmente voltar?</string>
+    <string name="celular">Celular</string>
+    <string name="clique_para_saber_mais">Clique para saber mais</string>
+    <string name="condicao">Condição</string>
+    <string name="condicao_hints">Condição (Pago, Grátis, Solidário …)</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="curso">Curso</string>
+    <string name="descricao">Descrição</string>
+    <string name="descricao_1">Este app tem por objetivo auxiliar na divulgação do Programa de Educação, Cidadania e Cultura da Prefeitura da Cidade Feliz.</string>
+    <string name="descricao_2">Nele, você conseguirá cadastrar informações sobre os cursos e eventos do seu bairro.</string>
+    <string name="desfazer">Desfazer</string>
+    <string name="disciplina">Disciplina Desenvolvimento para Dispositivos Móveis (11100010548_20231_01)</string>
+    <string name="e_mail">E-mail</string>
+    <string name="editar_curso">Editar curso</string>
+    <string name="editar_usuario">Editar usuário</string>
+    <string name="entrar">Entrar</string>
+    <string name="erro">Erro! =(</string>
+    <string name="erro_atualizar">Erro ao atualizar os dados do usuário! =(</string>
+    <string name="erro_usuario">Usuário já existe! =(</string>
+    <string name="felipe_gabriel_de_mello_elias">Felipe Gabriel de Mello Elias</string>
+    <string name="horario">Horário</string>
+    <string name="inicio">Início</string>
+    <string name="instrutor">Instrutor(a)</string>
+    <string name="logradouro">Logradouro</string>
+    <string name="luis_henrique_paiva">Luís Henrique Paiva</string>
+    <string name="nome">Nome</string>
+    <string name="numero">Número</string>
+    <string name="pesquisar_curso">Pesquisar Curso</string>
+    <string name="pontificia_universidade_catolica_do_parana">Pontifícia Universidade Católica do Paraná</string>
+    <string name="professor_tutor">Professor-Tutor</string>
+    <string name="remover_curso">Remover Curso</string>
+    <string name="sair">Sair</string>
+    <string name="senha">Senha</string>
+    <string name="sobre_nos">Sobre nós</string>
+    <string name="sobre_o_projeto">Sobre o projeto</string>
+    <string name="termino">Término</string>
+    <string name="titulo">Título</string>
+    <string name="usuario">Usuário</string>
+    <string name="valor">Valor (R$)</string>
+    <string name="vanessa_scoz_braga">Vanessa Scoz Braga</string>
+    <string name="voltar">Voltar</string>
+</resources>

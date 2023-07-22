@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.UsuarioDetailActivity">
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="312dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="32dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/textViewBannerUsuarioAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/banner_usuario"
+        android:text="@string/usuario"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/design_default_color_primary_dark" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextLogradouro"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/logradouro"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/numero"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextBairro"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/bairro"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextCelular"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/celular"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextConfirmarSenha"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/confirmar_senha"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="0dp"
+    android:layout_marginBottom="32dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <Button
+        android:id="@+id/buttonAtualizarUsuario"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:onClick="atualizarUsuarioOnClick"
+        android:text="@string/atualizar_usuario" />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
